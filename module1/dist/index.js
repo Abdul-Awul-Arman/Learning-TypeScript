@@ -1,3 +1,3 @@
 "use strict";
-var a = 'bismillha';
+let a = 'bismillha';
 console.log(a);
