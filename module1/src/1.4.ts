@@ -1,10 +1,14 @@
 
  let number:number=123;
 
- number='this'   
+
 
  let s:string="arman";
   
- let array=[1,2,3,4];
+ let array:number[]=[1,2,3,4];
 
- array[0]='arman';
+ let coordinates:[number,number,string]=[1,2,'arman'];
+
+
+
+
