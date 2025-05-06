@@ -16,7 +16,7 @@ const Student1:Student={
 
 type Add=(num:number,num2:number)=>number;
 
-   const fun:Add=(num,num2){
+   const fun:Add=(num,num2)=>{
     return num+num2;
    }
 

@@ -29,3 +29,21 @@
     }
 
     console.log(student2);
+
+    type typeForArray=number[];
+   
+    interface interForArray{
+
+        [index:number]:number
+    }
+
+    const numArray:interForArray=[1,2,3]
+
+
+    interface interForFun{
+        (num:number,num2:number):number
+    };
+
+    const add:interForFun=(num,num2)=>{
+        return num+num2;
+    }
